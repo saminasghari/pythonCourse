@@ -3,6 +3,7 @@ print("x")
 print('x')
 print(x)
 print("x + 1")
+print('x'+1)
 print(x + 1)
 
 
@@ -12,4 +13,5 @@ x
 x
 2
 x + 1
+error=it causes an error saying can only concantenate str(not "int")to str
 3

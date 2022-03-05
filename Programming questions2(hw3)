@@ -1,0 +1,14 @@
+angle1 = int(input("enter number for  angle1: "))
+angle2 = int(input("enter number for  angle2: "))
+angle3 = int(input("enter number for  angle3: "))
+sum = angle1+angle2+angle3
+
+if (sum == 180):
+    print("it is a triangle")
+else:
+    print("it is not a triangle")
+    quit()
+if (angle1==90 or angle2==90 or angle3==90):
+    print("right")
+else:
+    print("not right")
